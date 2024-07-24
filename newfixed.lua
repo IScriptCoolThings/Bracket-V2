@@ -237,7 +237,7 @@ function Library:CreateWindow(title, color)
         Pattern.Position = UDim2.new(0.499520153, 0, 0.499957234, 0)
         Pattern.Size = UDim2.new(0, 521, 0, 471)
         Pattern.ZIndex = 9
-        Pattern.Image = "rbxassetid://2151741365"
+        --Pattern.Image = ""
         Pattern.ImageTransparency = 0.600
         Pattern.ScaleType = Enum.ScaleType.Tile
         Pattern.SliceCenter = Rect.new(0, 256, 0, 256)
@@ -1021,7 +1021,7 @@ function Library:CreateWindow(title, color)
                 gradient.Position = UDim2.new(0, 10, 0, 10)
                 gradient.Size = UDim2.new(0, 154, 0, 104)
                 gradient.ZIndex = 10
-                gradient.Image = "rbxassetid://4155801252"
+                --gradient.Image = ""
 
                 colorselection.Name = "colorselection"
                 colorselection.Parent = gradient
@@ -1031,7 +1031,7 @@ function Library:CreateWindow(title, color)
                 colorselection.AnchorPoint = Vector2.new(0.5, 0.5)
                 colorselection.Position = UDim2.new(def and select(3, Color3.toHSV(def)))
                 colorselection.Size = UDim2.new(0, 18, 0, 18)
-                colorselection.Image = "rbxassetid://4953646208"
+                --colorselection.Image = ""
                 colorselection.ScaleType = Enum.ScaleType.Fit
                 
                 colorslider.Name = "colorslider"
@@ -1317,7 +1317,7 @@ function Library:CreateWindow(title, color)
                 pfp.BackgroundTransparency = 1.000
                 pfp.Position = UDim2.new(0, 5, 0, 5)
                 pfp.Size = UDim2.new(0, 48, 0, 48)
-                pfp.Image = Pfp
+                --pfp.Image = Pfp
                 
                 info.Name = "info"
                 info.Parent = playercard
